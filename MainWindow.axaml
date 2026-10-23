@@ -5,9 +5,13 @@
         mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
         x:Class="HolaAvalonia.MainWindow"
         Title="Interfaz con Avalonia - Daniel">
-    <StackPanel>
-        <TextBlock Text="Hola, soy Daniel" FontSize="23"> </TextBlock>
-        <Button Content="Pulsa aquí"></Button>
-    </StackPanel>
+    <Grid>
+        <StackPanel Name="panel" Margin="20">
+            <TextBlock Name="saludo" Text="Hola, soy Daniel" FontSize="24"/>
+            <Button Name="boton" Content="Púlsame" Margin="0,10,0,0"/>
+        </StackPanel>
+
+    </Grid>
+
 
 </Window>
